@@ -1,13 +1,12 @@
 /* Page background */
 .login-page {
-  height: 100vh;
-  background: #efefef;
+  min-height: calc(100vh - 70px); /* subtract header height */
   display: flex;
-  justify-content: center;
   align-items: center;
-  position: relative;
-  font-family: Arial, sans-serif;
+  justify-content: center;
+  padding-top: 70px; /* prevent overlap with fixed header */
 }
+
 
 /* Top-left VGU header */
 .vgu-header {

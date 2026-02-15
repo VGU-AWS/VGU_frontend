@@ -1,5 +1,19 @@
+.vgu-header {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .vgu-header img {
   width: 150px;
+}
+
+.vgu-header span {
+  font-size: 14px;
+  color: #666;
 }
 .header {
   display: flex;
@@ -9,7 +23,6 @@
   border-bottom: 1px solid #ddd;
   background: #fff;
 }
-
 
 /* LOGO */
 .header-logo {
@@ -33,6 +46,7 @@
   padding: 8px 12px;
   border-radius: 20px;
   border: 1px solid #ccc;
+  margin-left: 500px;
 }
 
 /* NAV */
@@ -49,7 +63,7 @@
   position: relative;
 }
 
-/* 🔥 UNDERLINE ANIMATION */
+/* UNDERLINE ANIMATION */
 .header-link::after {
   content: "";
   position: absolute;

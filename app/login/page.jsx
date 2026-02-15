@@ -1,8 +1,13 @@
 import Login from "../../src/components/Login/login";
 
 export default function LoginPage() {
-  return <Login />;
+  return (
+    <main className="login-page">
+      <Login />
+    </main>
+  );
 }
+
 
 
 
