@@ -1,0 +1,50 @@
+/* ===== CSS RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+html, body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #efefef; /* light grey background like design */
+  color: #333;
+}
+
+/* Remove link underline */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons default fix */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Inputs default fix */
+input {
+  font-family: inherit;
+  outline: none;
+}
+
+/* Center container helper (optional) */
+.container-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Scrollbar (optional nice look) ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 10px;
+}
