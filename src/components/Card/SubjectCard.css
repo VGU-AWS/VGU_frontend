@@ -1,0 +1,60 @@
+.subject-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+/*  HOVER EFFECT */
+.subject-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+/* CLICK EFFECT */
+.subject-card:active {
+  transform: translateY(-1px) scale(0.98);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* INFO */
+.subject-info h4 {
+  margin: 0;
+}
+
+.subject-meta {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.subject-rating {
+  background: #eee;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.subject-tag {
+  background: #ddd;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+/* HEART */
+.subject-heart {
+  margin-left: auto;
+  font-size: 22px;
+  transition: transform 0.2s ease;
+}
+
+.subject-card:hover .subject-heart {
+  transform: scale(1.2);
+}

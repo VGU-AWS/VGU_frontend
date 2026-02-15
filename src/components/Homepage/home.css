@@ -1,0 +1,127 @@
+/* MAIN BACKGROUND */
+.home-main {
+  background: #f5f5f5;
+  min-height: 100vh;
+  padding: 50px 0;
+  margin-left: 50px;
+}
+
+/* CENTER CONTAINER */
+.home-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HERO */
+.home-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 300px;
+}
+
+.home-subtitle {
+  margin-top: 6px;
+  color: #555;
+  margin-left: 350px;
+}
+
+/* ACTION BUTTONS */
+.home-actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.home-btn-orange {
+  background: #ff7a00;
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 22px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.home-search {
+  padding: 10px 16px;
+  border-radius: 22px;
+  border: 1px solid #ccc;
+  width: 220px;
+}
+
+/* FEATURE */
+.home-feature {
+  color: #ff7a00;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* SECTION HEADER */
+.home-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.home-section-header span {
+  color: #777;
+  font-size: 14px;
+}
+
+/* GRID */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 20px;
+}
+.logo img {
+  width: 200px;
+  margin-left: 420px;
+}
+.home-feature-row {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 16px;
+}
+
+.home-feature-text {
+  color: #ff7a00;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 24px;
+}
+
+.home-feature-line {
+  flex: 1;              /* ← fills remaining space */
+  height: 1.5px;
+  background: #ff7a00;
+  margin-left: 80px;
+}
+.home-see-more {
+  color: #777;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;   /* remove default underline */
+  transition: all 0.2s ease;
+}
+
+.home-see-more:hover {
+  text-decoration: underline;
+}
+
+.home-btn-orange:hover {
+  background: #e96d00;           /* darker orange */
+  transform: translateY(-2px);   /* lift effect */
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.home-btn-orange:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}

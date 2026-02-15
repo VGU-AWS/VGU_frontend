@@ -1,7 +1,7 @@
-export default function Home() {
-  return (
-    <main>
-      <h1>VGU Cloud Club</h1>
-    </main>
-  );
+import HomePage from "../src/components/Homepage/home";
+
+
+export default function Page() {
+  return <HomePage />;
 }
+
