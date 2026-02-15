@@ -1,14 +1,16 @@
-import "../styles/global.css";
+import "./global.css";
+
 
 export const metadata = {
-  title: "AWS VGU Cloud Club",
-  description: "Login System",
+  title: "Study Vault",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}   {/* page only */}
+      </body>
     </html>
   );
 }

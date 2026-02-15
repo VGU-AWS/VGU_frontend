@@ -80,6 +80,11 @@
   font-size: 15px;
   cursor: pointer;
 }
+.login-btn:hover {
+  background: #e96d00;           /* darker orange */
+  transform: translateY(-2px);   /* lift effect */
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
 /* Club logo image */
 .club-logo img {
   width: 200px;
