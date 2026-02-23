@@ -9,10 +9,23 @@ export default function Footer() {
         <a>Team</a>
       </div>
 
-      <button style={styles.button}>Contact Us</button>
+      {/* CONTACT EMAIL BUTTON */}
+      <a
+        href="https://www.facebook.com/aws.vgu.cloudclub"
+        style={styles.button}
+      >
+        Contact Us
+      </a>
 
       <p style={{ marginTop: 20 }}>
         VGU AWS Club © 2025 All Rights Reserved
+      </p>
+
+      {/* Also clickable email text */}
+      <p>
+        <a href="mailto:aws.vgu@vgu.edu.vn">
+          aws.vgu@vgu.edu.vn
+        </a>
       </p>
     </footer>
   );
