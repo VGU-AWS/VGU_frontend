@@ -1,37 +1,18 @@
 /* Page background */
 .login-page {
-  min-height: calc(100vh - 70px); /* subtract header height */
+  min-height: 50px; /* subtract header height */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 70px; /* prevent overlap with fixed header */
+  padding-top: 50px; /* prevent overlap with fixed header */
 }
 
-
-/* Top-left VGU header */
-.vgu-header {
-  position: absolute;
-  top: 20px;
-  left: 30px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.vgu-header img {
-  width: 55px;
-}
-
-.vgu-header span {
-  font-size: 14px;
-  color: #666;
-}
 
 /* Card */
 .login-card {
   width: 420px;
   background: #f7f7f7;
-  padding: 50px 40px;
+  padding: 30px 40px;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.05);
   text-align: center;
@@ -90,7 +71,4 @@
   margin-bottom: 20px;
 }
 
-/* VGU logo */
-.vgu-header img {
-  width: 200px;
-}
+

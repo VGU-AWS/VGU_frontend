@@ -4,27 +4,30 @@ import { useState } from "react";
 import Image from "next/image";
 import Sidebar from "../Sidebar/sidebar";
 import "./header.css";
-
+import Link from "next/link";
 export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
     <>
       <header className="header">
-
-        <div className="vgu-header">
-          <img src="/images/vgu.png" alt="VGU Logo" />
-        </div>
+        <div className = "header-left">
+          <div className="vgu-header">
+            <img src="/images/vgu.png" alt="VGU Logo" />
+          </div>
 
         {/* SEARCH */}
         <input
           className="header-search"
           placeholder="Search document"
         />
+        </div>
 
         {/* NAV */}
         <nav className="header-nav">
-          <span className="header-link">HOME</span>
+          <Link href="/" className="header-link">
+            HOME
+          </Link>
           <span className="header-link">CONTACT</span>
 
           {/* add onClick */}

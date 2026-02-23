@@ -1,14 +1,11 @@
 "use client";
 import "./login.css";
 
+
 export default function Login() {
   return (
+    <>
     <div className="login-page">
-
-      {/* Top-left VGU logo */}
-      <div className="vgu-header">
-        <img src="/images/vgu.png" alt="VGU Logo" />
-      </div>
 
       {/* Login Card */}
       <div className="login-card">
@@ -26,6 +23,7 @@ export default function Login() {
 
       </div>
     </div>
+    </>
   );
 }
 
