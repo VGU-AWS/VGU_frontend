@@ -58,3 +58,15 @@
 .subject-card:hover .subject-heart {
   transform: scale(1.2);
 }
+.subject-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.subject-card {
+  flex: 1 1 400px;
+}
+
+
+

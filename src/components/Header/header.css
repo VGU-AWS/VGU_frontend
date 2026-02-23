@@ -1,7 +1,5 @@
+/* LOGO */
 .vgu-header {
-  position: absolute;
-  top: 20px;
-  left: 30px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -10,19 +8,31 @@
 .vgu-header img {
   width: 150px;
 }
-
-.vgu-header span {
-  font-size: 14px;
-  color: #666;
-}
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: space-between;
   padding: 16px 40px;
   border-bottom: 1px solid #ddd;
   background: #fff;
+  gap: 20px;
 }
+
+.header-search {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.header-nav {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  font-weight: bold;
+}
+
 
 /* LOGO */
 .header-logo {
@@ -40,22 +50,6 @@
   font-size: 12px;
 }
 
-/* SEARCH */
-.header-search {
-  width: 300px;
-  padding: 8px 12px;
-  border-radius: 20px;
-  border: 1px solid #ccc;
-  margin-left: 500px;
-}
-
-/* NAV */
-.header-nav {
-  display: flex;
-  gap: 28px;
-  align-items: center;
-  font-weight: bold;
-}
 
 /* NAV LINKS */
 .header-link {
